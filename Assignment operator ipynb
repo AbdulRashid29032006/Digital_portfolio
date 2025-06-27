@@ -1,0 +1,70 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/AbdulRashid29032006/Digital_portfolio/blob/main/Assignment%20operator%20ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Assignment operator"
+      ],
+      "metadata": {
+        "id": "t9-mZfoZI0Vj"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "# Declare a variable\n",
+        "x = 20\n",
+        "\n",
+        "# Multiplication assignment\n",
+        "x *= 2  # equivalent to x = x * 2\n",
+        "print(\"Multiplication Assignment:\", x)\n",
+        "\n",
+        "# Division assignment\n",
+        "x /= 2  # equivalent to x = x / 2\n",
+        "print(\"Division Assignment:\", x)"
+      ],
+      "metadata": {
+        "id": "z6bIFZIjI4SJ",
+        "outputId": "f8283f31-7b37-4091-87dc-88fdf811e324",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Multiplication Assignment: 40\n",
+            "Division Assignment: 20.0\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colab",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
